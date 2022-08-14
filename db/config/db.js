@@ -7,7 +7,8 @@ require('dotenv').config()
 const mongoose = require('mongoose');
 function connection() {
     
-    mongoose.connect(process.env.MONGO_CONNECTION_URL, {
+    mongoose.connect("mongodb+srv://tanya:mohan%4026@cluster0.6pzpe.mongodb.net/?retryWrites=true&w=majority"
+, {
         useNewUrlParser: true,
   
         useUnifiedTopology: true
